@@ -37,7 +37,7 @@ ${workername}.${username}.workers.dev 返回的routes json
 ```
 ## Config tutorial
 
-只转发一个可用使用下面配置
+只转发一个可用使用下面配置;
    ```javascript
    const routes = {
      "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
