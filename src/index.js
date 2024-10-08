@@ -6,7 +6,7 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-    "dhub.goitcloud.eu.org": dockerHub,
+    "dchub.goitcloud.eu.org": dockerHub,
     "dc.goitcloud.eu.org": "https://registry-1.docker.io",
     "qa.goitcloud.eu.org": "https://quay.io",
     "gr.goitcloud.eu.org": "https://gcr.io",
