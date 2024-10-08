@@ -43,7 +43,7 @@ ${workername}.${username}.workers.dev 返回的routes json
      "${workername}.${username}.workers.dev/": "https://registry-1.docker.io",
    };
    ```
-多个转发需求配置必须要有自己的域名
+多个转发需求配置必须要有自己的域名;
 ```javascript
    const routes = {
     "docker.boown.com": "https://registry-1.docker.io",
